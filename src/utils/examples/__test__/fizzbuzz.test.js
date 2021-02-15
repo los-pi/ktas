@@ -2,8 +2,8 @@ import { fizzbuzz } from "./fizzbuzz";
 
 describe("Kata fizzbuzz", () => {
 	it("Should return a given number as a string", () => {
-		expect(fizzbuzz(1)).toEqual("1");
-		expect(fizzbuzz(18)).toEqual("18");
+		expect(fizzbuzz(1)).toBe("1");
+		expect(fizzbuzz(2)).toBe("2");
 	});
 
 	it("Should return FIZZ if number is divisible by 3", () => {
