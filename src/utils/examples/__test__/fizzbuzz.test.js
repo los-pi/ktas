@@ -1,4 +1,4 @@
-import { fizzbuzz } from "./fizzbuzz";
+import { fizzbuzz } from "../fizzbuzz";
 
 describe("Kata fizzbuzz", () => {
 	it("Should return a given number as a string", () => {
